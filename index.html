@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <header class="my-10 relative">
+    <header class="my-10">
         <!-- nav section  -->
         <nav
-            class="bg-[#F85559] w-4/5 flex mx-auto rounded-full items-center justify-between px-6 py-2 text-white fixed z-10 left-[8.5rem] top-5">
+            class="bg-[#F85559] w-4/5 flex mx-auto rounded-full items-center justify-between px-6 py-2 text-white fixed z-20 left-[8.5rem] top-5">
             <div class="">
                 <ul class="flex gap-3 font-bold">
                     <a href="#">
@@ -45,7 +45,7 @@
             </div>
         </nav>
         <!-- banner section  -->
-        <div class="mt-32 w-4/5 mx-auto">
+        <div class="mt-32 w-4/5 mx-auto relative">
             <div class="carousel w-full rounded-2xl">
                 <div id="slide1" class="carousel-item relative w-full bg-[url(assets/images/banner1.png)] leading-10">
                     <div class="bg-gray-600 w-full bg-opacity-50">
@@ -104,11 +104,34 @@
                     </div>
                 </div>
             </div>
+            <!-- banner overlap section  -->
+            <div class="flex justify-center items-center text-center gap-2 absolute left-44 -bottom-16 shadow-lg">
+                <div>
+                    <img src="assets/images/fruit1.png" alt="">
+                    <p>Strawberry</p>
+                </div>
+                <div>
+                    <img src="assets/images/fruit2.png" alt="">
+                    <p>Orange</p>
+                </div>
+                <div>
+                    <img src="assets/images/fruit3.png" alt="">
+                    <p>Mango</p>
+                </div>
+                <div>
+                    <img src="assets/images/fruit4.png" alt="">
+                    <p>Strawberry</p>
+                </div>
+                <div>
+                    <img src="assets/images/fruit5.png" alt="">
+                    <p>Mango</p>
+                </div>
+            </div>
         </div>
     </header>
     <main>
         <!-- Deal of the day section  -->
-        <section class="w-4/5 mx-auto">
+        <section class="w-4/5 mx-auto mt-20">
             <div class="flex justify-between mt-4">
                 <div>
                     <h1 class="text-3xl font-bold">Deal of the day</h1>
